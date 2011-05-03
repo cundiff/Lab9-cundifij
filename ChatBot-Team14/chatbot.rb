@@ -4,7 +4,7 @@ puts 'What is your name?'
 name = gets.chomp
 puts "Hello, #{name}!"
 
-puts "\nPlease choose a game...
+puts "Please choose a game...
 	  1. Squid Attack.
 	  2. Minesweeper.
 	  3. Sims Homeless.
