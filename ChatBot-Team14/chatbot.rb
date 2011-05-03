@@ -1,17 +1,17 @@
-#$stdout.sync = true
+$stdout.sync = true
 
 puts 'What is your name?'
 name = gets.chomp
 puts "Hello, #{name}!"
 
-puts <<-eos
+puts <<-eod
 Please choose a game...
 1. Squid Attack.
 2. Minesweeper.
 3. Sims Homeless.
 4. Zombies.
 5. Global Thermonuclear War.
-eos
+eod
 choice = gets.chomp.to_i
 
 if choice == 5

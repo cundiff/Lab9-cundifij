@@ -8,7 +8,7 @@ Scenario: Verify the prompt shows up
 	Given the application is running
 	When I type "Kyle" and press Enter
 	Then I should see: 
-		"""
+	    """
 		Please choose a game... 
 		1. Squid Attack. 
 		2. Minesweeper. 
