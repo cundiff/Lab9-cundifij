@@ -14,5 +14,8 @@ Then /^I should see "([^""]*)" $/ do |exact_output|
 all_output.should == exact_output
 end
 
+Then /^I should see "([^""]*)" $/ do |exact_output|
+all_output.should == exact_output
+end
 
 
