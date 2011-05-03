@@ -12,3 +12,4 @@ Scenario: Prompt the user for name
 	Given the application is running
 	When I type "Kyle" and press Enter
 	Then I should see "Hello, Kyle!"
+	

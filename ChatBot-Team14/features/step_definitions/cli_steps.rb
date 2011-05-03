@@ -14,16 +14,12 @@ Then /^I should see "([^""]*)" $/ do |exact_output|
 assert_partial_output(exact_output)
 end
 
-Then /^I should see "([^""]*)" $/ do |game_text|
-assert_partial_output(game_text)
+#When /^I see "([^""]*)"$/ do 
+#end
+
+Then /^I should see:$/ do |choices|
+assert_partial_output(choices)
 end
 
-When /^I type "([^""]*)" and press Enter$/ do |game_choice|
-type(game_choice)
-end
-
-Then /^I should see "([^""]*)" $/ do |game_output|
-assert_partial_output(game_output)
-end
 
 
